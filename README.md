@@ -20,26 +20,26 @@ This project is a back-end API service built using Node.js and MongoDB. It provi
 ## Installation
 To run this project locally, follow these steps:
 
-<ol>
-<li> Clone the repository to your local machine:
+
+1. Clone the repository to your local machine:
     ```bash 
         git clone <repository-url>
         cd <repository-directory>
     ```
-</li>
-<li> Install the project dependencies using npm:
+
+2. Install the project dependencies using npm:
     ```bash 
         npm install
     ```
-</li>
-<li> 
-    Configure the MongoDB connection settings in the config.js file to match your environment.
-</li>
-<li> Start the server:
+
+ 
+3. Configure the MongoDB connection settings in the config.js file to match your environment.
+
+4. Start the server:
 ```bash 
     node app.js
 ```
-</li>
+
 </ol>
 
 The server will be running at http://localhost:3000.

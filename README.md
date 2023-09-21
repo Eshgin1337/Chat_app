@@ -22,15 +22,15 @@ To run this project locally, follow these steps:
 
 
 1. Clone the repository to your local machine:
-    ```bash 
-        git clone https://github.com/Eshgin1337/My-Health-API.git
-        cd My-Health-API/
-    ```
+```bash 
+    git clone https://github.com/Eshgin1337/My-Health-API.git
+    cd My-Health-API/
+```
 
 2. Install the project dependencies using npm:
-    ```bash 
-        npm install
-    ```
+```bash 
+    npm install
+```
 
  
 3. Configure the MongoDB connection settings in the config.js file to match your environment.

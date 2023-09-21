@@ -23,8 +23,8 @@ To run this project locally, follow these steps:
 
 1. Clone the repository to your local machine:
     ```bash 
-        git clone <repository-url>
-        cd <repository-directory>
+        git clone https://github.com/Eshgin1337/My-Health-API.git
+        cd My-Health-API/
     ```
 
 2. Install the project dependencies using npm:
@@ -39,8 +39,6 @@ To run this project locally, follow these steps:
 ```bash 
     node app.js
 ```
-
-</ol>
 
 The server will be running at http://localhost:3000.
 

@@ -26,7 +26,7 @@ const validator = (req, res, next) => {
 };
 
 
-mongoose.connect(`mongodb+srv://myhealth:${process.env.PASSWORD}@cluster0.pweg8.mongodb.net/healthDatabase?retryWrites=true&w=majority`);
+mongoose.connect(`mongodb://localhost:27017/myhealthapp`);
 
 const citizenSchema = new mongoose.Schema({
     firstName: {type: String, required: true},
